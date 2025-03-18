@@ -107,3 +107,12 @@ textarea{
   box-sizing: border-box;
   resize: none;
 }
+header{
+  font-family: Arial, sans-serif;
+}
+logo{
+  position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
