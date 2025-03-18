@@ -1,0 +1,109 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+.enqiury{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f8f8;
+    margin: 0;
+}
+form {
+  font-family: "Times New Roman", Times, seris;
+  border: 3px solid #f1f1f1;
+  display: fixed;
+  height:500;
+  width: 700;
+  position: center;
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+input[type=text], input[type=password], input[type=tel], input[type=textarea] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+body 
+{
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #fff;
+}
+h1{
+  font-family: "Times New Roman", Times, serif;
+}
+forgot{
+  position: absolute;
+  bottom: 35px;
+  right: 3px;
+}
+form{
+    width: 400px
+    height: 700px; 
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+    padding: 15px;
+    background-color: white;
+}
+textarea{
+  width: 100%;
+  box-sizing: border-box;
+  resize: none;
+}
