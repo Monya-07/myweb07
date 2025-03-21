@@ -113,3 +113,11 @@ header{
 logo{
   
 }
+.forgot{
+  position: absolute;
+  left: 80%;
+  top: 57%;
+}
+.navbar{
+  width: 100%;
+}

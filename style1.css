@@ -77,8 +77,12 @@ body {
   margin: 10px;
   row-gap: 10%;
 }
-ul {
+p{
 
+    background-color: gray;
+
+}
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -101,3 +105,13 @@ li a {
 li a:hover:not(.active) {
   background-color: #111;
 }
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+/* css syntax */
+/*element-selector{
+    property:value;
+} 
